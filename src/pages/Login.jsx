@@ -59,7 +59,7 @@ function Login() {
         <>
           <h1>Login Form</h1>
 
-          {user && (
+          {!user && (
             <>
               <input
                 type="email"

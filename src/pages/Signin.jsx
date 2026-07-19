@@ -8,7 +8,7 @@ function Signin() {
   const [password, setpassword] = useState('')
   const [email, setemail] = useState('')
 
- const h2 = <h2>Signup</h2>
+
   const validatePassword = (password) => {
     if (password.length < 6) {
       return "Too short password"
