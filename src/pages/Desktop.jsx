@@ -45,7 +45,7 @@ const adddata = async() => {
       <input
   type="file"
   placeholder='add your image here'
-  onChange={(e) => setimg(e.target.files)}
+  onChange={(e) => setimg(e.target.files[0])}
 />
 
       <br /> <br />
